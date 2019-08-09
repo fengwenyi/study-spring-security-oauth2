@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/study-spring-security-oauth2-auth/study-spring-security-oauth2-auth.iml" filepath="$PROJECT_DIR$/study-spring-security-oauth2-auth/study-spring-security-oauth2-auth.iml" />
+      <module fileurl="file://$PROJECT_DIR$/study-spring-security-oauth2-resource/study-spring-security-oauth2-resource.iml" filepath="$PROJECT_DIR$/study-spring-security-oauth2-resource/study-spring-security-oauth2-resource.iml" />
+    </modules>
+  </component>
+</project>
