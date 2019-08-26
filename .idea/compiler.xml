@@ -6,18 +6,21 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="study-spring-security-oauth2-resource" />
         <module name="study-spring-security-oauth2-auth" />
+        <module name="study-spring-security-oauth2-resource" />
+        <module name="study-spring-security-oauth2-auth-mysql" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="study-spring-security-oauth2-auth" target="1.8" />
+      <module name="study-spring-security-oauth2-auth-mysql" target="1.8" />
       <module name="study-spring-security-oauth2-resource" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="study-spring-security-oauth2-auth" options="-parameters" />
+      <module name="study-spring-security-oauth2-auth-mysql" options="-parameters" />
       <module name="study-spring-security-oauth2-resource" options="-parameters" />
     </option>
   </component>

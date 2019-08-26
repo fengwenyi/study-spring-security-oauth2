@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MyBatisCodeHelperDatasource">
+    <option name="projectProfile">
+      <ProjectProfile>
+        <option name="genSqlFilePath" value="$PROJECT_DIR$/study-spring-security-oauth2-auth/src/main/java/com/fengwenyi/study_spring_security_oauth2_auth/db" />
+      </ProjectProfile>
+    </option>
+  </component>
+</project>

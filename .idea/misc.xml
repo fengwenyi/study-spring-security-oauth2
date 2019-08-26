@@ -5,6 +5,7 @@
       <list>
         <option value="$PROJECT_DIR$/study-spring-security-oauth2-auth/pom.xml" />
         <option value="$PROJECT_DIR$/study-spring-security-oauth2-resource/pom.xml" />
+        <option value="$PROJECT_DIR$/study-spring-security-oauth2-auth-mysql/pom.xml" />
       </list>
     </option>
   </component>
