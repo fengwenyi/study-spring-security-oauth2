@@ -6,13 +6,17 @@ server:
 spring:
   application:
     name: study-spring-security-oauth2-auth-mysql
+
   datasource:
     name: study-spring-security-oauth2-auth-mysql
     type: com.zaxxer.hikari.HikariDataSource
     driver-class-name: com.mysql.cj.jdbc.Driver
+    # url 会报错， 用 jdbc-url
     url: jdbc:mysql://localhost:3306/study-spring-security-oauth2?useUnicode=true&characterEncoding=utf-8&useSSL=false
+#    jdbc-url: jdbc:mysql://localhost:3306/study-spring-security-oauth2?useUnicode=true&characterEncoding=utf-8&useSSL=false
     username: root
     password: 123456
+
     hikari:
       minimum-idle: 5
       idle-timeout: 600000
@@ -22,6 +26,10 @@ spring:
       max-lifetime: 1800000
       connection-timeout: 30000
       connection-test-query: SELECT 1
+#      jdbc-url: jdbc:mysql://localhost:3306/study-spring-security-oauth2?useUnicode=true&characterEncoding=utf-8&useSSL=false
+#      driver-class-name: com.mysql.cj.jdbc.Driver
+#      username: root
+#      password: 123456
 
   jpa:
     database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
