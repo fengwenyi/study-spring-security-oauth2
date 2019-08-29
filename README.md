@@ -17,7 +17,7 @@ https://github.com/spring-projects/spring-security-oauth/blob/master/spring-secu
 
 通过授权码发放令牌
 
-![基于 JDBC 实现](./study-spring-security-oauth2-auth-mysql)
+[基于 JDBC 实现](./study-spring-security-oauth2-auth-mysql)
 
 #### 资源服务
 
